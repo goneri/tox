@@ -11,6 +11,16 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+v3.8.0 (2019-02-20)
+-------------------
+
+Features
+^^^^^^^^
+
+- tox will inject the ``TOX_PARALLEL_ENV`` environment variable, set to the current running tox environment name, only when running in parallel mode.
+  `#1139 <https://github.com/tox-dev/tox/issues/1139>`_
+
+
 v3.7.0 (2019-01-11)
 -------------------
 
